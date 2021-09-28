@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class CarTest {
 
     //TODO: add emptyTest so we can configure our runtime environment (remove this test before pushing to your personal GitLab account)
-    @Test
+    //@Test
 //    public void emptyTest(){
 //        assertEquals(10,10,.001);
 //    }
