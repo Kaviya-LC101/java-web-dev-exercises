@@ -36,11 +36,13 @@ public abstract class Ingredient {
     public void setAllergens(ArrayList<String> allergens) {
         this.allergens = allergens;
     }
+// Commenting out the Override to print flavours Name and cones Cost
+//    @Override
+//    public String toString() {
+//        return "Name: " + name + "\n" +
+//                "Cost: $" + cost + "\n" +
+//           "Allergens: " + allergens + "\n";
+//}
 
-    @Override
-    public String toString() {
-        return "Name: " + name + "\n" +
-                "Cost: $" + cost + "\n" +
-                "Allergens: " + allergens + "\n";
-    }
+
 }

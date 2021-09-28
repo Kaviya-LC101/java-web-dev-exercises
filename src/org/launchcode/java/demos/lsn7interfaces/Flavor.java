@@ -10,4 +10,10 @@ public class Flavor extends Ingredient {
     }
 
 
+// overide method to print name
+    @Override
+    public String toString() {
+        return  super.getName()+"\n";
+    }
+
 }
